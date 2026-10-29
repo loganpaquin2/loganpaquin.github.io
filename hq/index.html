@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Paquin HQ</title>
+    <script>
+      // Paste the web app URL from Deploy > Manage deployments (it ends in /exec). Also paste it in the link below.
+      const WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbzIj5pFirz0yZKEDdsJfC6IzZE_kQjr1xGI7RPhcw1TQKrLqZ3EFPhmfkpvHOK3wf-9jA/exec';
+      window.location.replace(WEBAPP_URL);
+    </script>
+    <style>
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #12131f; color: #f6f3ff; font: 16px/1.5 system-ui, -apple-system, 'Segoe UI', sans-serif; }
+      a { display: inline-block; padding: 12px 20px; border-radius: 14px; background: #f5b83d; color: #241d33; font-weight: 700; text-decoration: none; border: 3px solid #241d33; }
+      a:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+    </style>
+  </head>
+  <body>
+    <main style="text-align: center">
+      <p>Taking you to Paquin HQ. You may be asked to sign in with Google.</p>
+      <a id="go" href="https://script.google.com/macros/s/AKfycbzIj5pFirz0yZKEDdsJfC6IzZE_kQjr1xGI7RPhcw1TQKrLqZ3EFPhmfkpvHOK3wf-9jA/exec">Open Paquin HQ</a>
+    </main>
+    <script>
+      document.getElementById('go').href = WEBAPP_URL;
+    </script>
+  </body>
+</html>
